@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#f2cc0f, #8cbf3f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+
+/* NavBar CSS */
+
+header {
+    height: 90px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+}
+
+.nav-item {
+    font-family: "Pattaya";
+    width: 115px;
+    text-align: center;
+}
+
+.container {
+    width: 200px;
+}
+
+.logo img {
+    align-self: center;
+    width: 300px;
+    height: 75px;
+    padding-left: 40px;
+}
+
+li a {
+    list-style-type: none;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.nav-link-home {
+    background-color: #f2cc0f;
+}
+
+.nav-link-about {
+    background-color: #8cbf3f;
+}
+
+.nav-link-media {
+    background-color: #9453a6;
+}
+
+.nav-link-faq {
+    background-color: #f2cc0f;
+}
+
+.nav-link-contantus {
+    background-color: #8cbf3f;
+}
+
+/* End of NavBar CSS */
+
+.faq {
+    padding-bottom: 4%;
+}
+
+.faqsec {
+    padding: 2%;
+    font-size: 1.2rem;
+}
+
+.faqheadermain {
+
+    text-align: center;
+    font-family: 'Pattaya';
+    font-size: 3rem;
+}
+
+.accordion-header {
+    text-align: left;
+    font-family: 'Pattaya';
+    font-size: 2.3rem;
+}
+
+.accordion-button {
+    background: linear-gradient(#f2cc0f, #8cbf3f);
+}
+
+.accordion-body {
+    padding-right: 30%;
+    font-weight: 600;
+    text-align: left;
+    font-size: 1.3rem;
+    font-family: 'Henny+Penny',
+        sans-serif;
+    background: linear-gradient(#8cbf3f, #9453A6);
+    ;
+}
